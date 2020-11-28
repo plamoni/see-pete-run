@@ -1,13 +1,9 @@
 import './polyfills';
+import './environments/environment';
 
-import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
-
-if(window.location.href.indexOf('see.pete.run') > 0) {
-  enableProdMode();
-}
 
 platformBrowserDynamic().bootstrapModule(AppModule).then(ref => {
   // Ensure Angular destroys itself on hot reloads.
