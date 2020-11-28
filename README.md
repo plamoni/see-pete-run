@@ -1,3 +1,3 @@
 # see-pete-run
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/see-pete-run)
+[![Build Status](https://travis-ci.com/plamoni/see-pete-run.svg?branch=master)](https://travis-ci.com/plamoni/see-pete-run)
