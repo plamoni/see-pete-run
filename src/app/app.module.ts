@@ -4,12 +4,14 @@ import {FormsModule} from '@angular/forms';
 
 import {AppComponent} from './app.component';
 import {HelloComponent} from './hello.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {HomeModule} from './components/home/home.module';
 
 /**
  * App Module
  */
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, NgbModule, HomeModule],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],
 })

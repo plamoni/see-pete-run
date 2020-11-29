@@ -1,1 +1,3 @@
-console.log('Running in dev mode.');
+export const environment = {
+  production: false,
+};
