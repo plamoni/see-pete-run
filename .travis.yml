@@ -36,6 +36,5 @@ jobs:
       deploy:
         provider: firebase
         skip_cleanup: true
-        project: see-pete-run
         token:
           secure: "APcbrvJ1/UX0PkDtR2pqHbAg+/icK+STx3pCRcsG+hCd0urUOv4x+/TjQiu7osE6aMxDasNAwHpIP0+hyegBfFWpTsHyn0rhS+5KqY6Uh3ax8t62AtrbV9vUgMRgv/L3yTeM9jlnndXXqPtoWdFd8i6hieNLVgLYpSt6U+ucDAnruuRNTiYJi60hh9Wlpg2pYpJXBSnF7n1BErS+WBfwq+DNF6D+qHO9zIa5Hdll9ITUQ+Z7HeK1oOLutMIucFc62PM0EwqirVsxww8LxTb+LHyfAxFx4klD9FNpLqFbe3QfFSCTlEKkHp6SsB7wB1RHx5GqYJWdPjE0okYLXsq3D9Ar//S7kv16spTAWMD9USjqNITJrUlAnY7TwnleP45HaDQvGW6P3Mc3xYf3dKzndUGLCuxbuohjnn7F+0cEc3fRXQ4xpmoVQd9wA/eQ2+Wq1ZiYih5tmJiE70choo010LqlkNhL8A8SmcocEQh2MUoPdF9ujTYfo9AiC1w4qsunguYfOwvC46RprR6R26Mo6hWxqcNm6Nn4vxJ3VLIkVK84Lv1hHYlt/1vqgoIn1tfUzZTirmQ1y9JiKBOsHj+SUpbnjVaAPa3+JSWInFsllAv783BtSYn5GVVSkzoqo+C9VOxiamjvtm0JsaFt2K88hz9YuwG1I65kjcLAGmindII="
