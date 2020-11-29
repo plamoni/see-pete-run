@@ -31,6 +31,8 @@ jobs:
         - npm run test-headless
     - stage: production
       name: Deploy To Production
+      script:
+        - ng build --prod --base-href https://see.pete.run/
       deploy:
         provider: firebase
         token:
