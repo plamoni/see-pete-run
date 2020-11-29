@@ -23,16 +23,12 @@ before_script:
 
 jobs:
   include:
-    - stage: check
-      name: Check Validity
+    - stage: prod
+      name: Deploy to see.pete.run
       script: 
         - ng lint
         - ng build --prod --base-href https://see.pete.run/
         - npm run test-headless
-    - stage: production
-      name: Deploy To Production
-      script:
-        - ng build --prod --base-href https://see.pete.run/
       deploy:
         provider: firebase
         skip_cleanup: true
