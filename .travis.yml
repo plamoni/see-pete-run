@@ -32,3 +32,9 @@ jobs:
     - stage: test
       name: Unit Tests
       script: npm run test-headless
+
+deploy:
+  provider: firebase
+  token:
+    secure: "txRpMyf+0DtRrtwuHebcT46+NrTKdlPnGqPMcv7PDHpPM+L3L+0L2HFLaMh9H8xGllOhye2o8CSrSNBAoZ1FbPRnAt/N+G5yjAE8Mx0FiZTHDy4gWBcMYbY5VTVXJO9nkxa1wRoD6nBe4FkpGZz1BWkvr+3gjWVPnASZACLJUJpMFQeHlM3g0Dt6TtJaYxXF5ItBroODUazIsf7jjll4Zo97Vht9nXUgSWOLmk2XKhHIfUPPAKxJJJprny/JG/OjrL6qYIfdYn2Cs5lNFRX2aQMDpXffq91LkzfBswZ8k7XQ0ihzsGvF8OKVjsyZx1pKlSY/RzbsVf3nMydGBCjKiZV/qOsDQbB778J1NF+zAsY4oCy7NJZ247F/08iGEOvrKsCUekjbxXJ73bGDkT+6pNe51AImMMMQKwnKx0lYgB9TsrDZP5L9bRha+P89TrJnyG2ZoyDHdYhV9b2Gc5WeB3wB6wMPGB3CSJEmIvH2OipfwWiTDNJ9ZKj93U3wVWOa+oRfl8rOG24NRDe9FTxAOeqi1auIqAPupVFSALF+GvzCLeOa6bMtVYsDFVbT3Ossl3L7K9Zg6vQJPULXR3rvTNSDLePKHu7YfuQqYBX0BTxSToyykwWhP4X/gKpGmwRAEwPS8nNgcDZpgsJ5k0f0yec+QzgIeALUuLvhzY2NKy4="
+  project: see-pete-run
