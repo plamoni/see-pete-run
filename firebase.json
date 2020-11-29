@@ -1,9 +1,10 @@
-"hosting": {
-    "public": "dist/see-pete-run",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
-  
+{
+    "hosting": {
+        "public": "dist/see-pete-run",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ]
+    }
+}

@@ -23,16 +23,14 @@ before_script:
 
 jobs:
   include:
-    - stage: analysis
-      name: Linting
-      script: ng lint
-    - stage: build
-      name: Angular Build
-      script: ng build --prod --base-href https://see.pete.run/
-    - stage: test
-      name: Unit Tests
-      script: npm run test-headless
-    - stage: deploy
+    - stage: check
+      name: Check Validity
+      script: 
+        - ng lint
+        - ng build --prod --base-href https://see.pete.run/
+        - npm run test-headless
+    - stage: production
+      name: Deploy To Production
       deploy:
         provider: firebase
         token:
