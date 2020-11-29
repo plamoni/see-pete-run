@@ -35,6 +35,7 @@ jobs:
         - ng build --prod --base-href https://see.pete.run/
       deploy:
         provider: firebase
+        skip_cleanup: true
         token:
-          secure: "bHWgGxWwoXLf6aUwBnvBHzXxnyKnJcxuVgXcE8yb83U7Pps8YA8x+dHGPaTTUIeLexhtXxD/eP/Uwq0c1CfzgihAc4pdzeHe4R7pehK/8ufE5Oj7bvV6gz3toRx4zcpGqhvMiKBgk/NurM7gWetTVlQAAkMKANK6aXskynDpMjZM8+bLtddGKRdzZzPfV0EX/aBbzBLb87Q2A0d6IU2CQ6tB1PRLcYLY3USB9BT9gbux8O4ItjnoQeDYkUL6/HUzAP4INCwwV9xqiYNn+1IeevGHdTLlN9Uwru3jr8MEGfDWw4NJ5kh75XcZD2gSGHtTRu8b+jjAo6kZBq5gPch8eEgzc1LSIMBgnIe8OfrDLt8kCy3PchQ/uD0CqSpF/FoAr9sDzndCmLmllooOV9evIbrQvnD6apdE3+r1NzRcLj/DI2lQGvd2fH69GGi536eXKUCDwHjzSvx7dkZmvCN9DhKPGN6qtSHDQf2CMji/tqe8XjsAWh/gpmOSJbsCdD6O10NC/nBo1PAgk5hUcudWxZgTWQr4ugHcPZ6sXQqlRmYhg8KzHybCloy+TImNlkFEgqeIqNoYzVg35oksQsFQdA4XauTnIByGMZvdkqvXFuFVDVSONIn35qaaWt5TtXYuvtnFot1uKrJIvmMGjiILJkPolZeGxCLIGBOVDp8ju3A="
+          secure: "ggkpPRWaMV2CJx2KyOCCCXyFKV3tOCfxWibG8jM7PQ7+CbPemFsuJbmRuW5hHvZysfEbEr5pxxTLPPsEDdAyhBKtg+I3/ki1Y+P+IQhOTFMgRugQmW23h2pIBwsBRsOaQ8w/fzM/ve0UgJxzzLYxbOjr/VB5yQlWlQ8cdSqAeqSLO/GqYW6WrCZuMqvIVsgs68swgKF9K3o/ixvtDp5sM2Dmor9ETI5FoCdD/2LtBIN1hwrGHJ5nO/Z3fN+KITJFLyIdRLeIdydmWbVjlQCQQIPnl4qJJCkEUDKkWqcr9c5AF1i44zEOhGyH6lrSU5z/RZKy6kLUZxJLUhBwFXSjQYzYNwdIPUOsY93TDgQPIfQCtZlTDztdx6Igyj2GF/OGWo5po/9t5x+cephxFzN366B6iwue8I0ZMInYpgnqtA2rJqWumIivkU832ppxZ6XORNaSM+0SKKLDOLFTC6L00mE6i/APORpjgoU94cUFMVXbI6PPfmtoBSV+Lce3ma6cLqwr9RS24uisp+pLe4ToxW78Fcu7B5HFq16w40UfkdCWlJiRGBCbTfqsj6ilM4Eeq1fSL/CMIUj8qPLB5K/FNDkoT2MkVmNhWCvOEv1BAQuk/H2RgCkg0nJB49F/8PsLsfDS77XZSlMjusUfLguLCr26zDOQ0hRBSuzEUxKCnA4="
         project: see-pete-run
