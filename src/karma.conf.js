@@ -1,6 +1,9 @@
 // Karma configuration
 // Generated on Sat Nov 28 2020 05:17:57 GMT+0000 (Coordinated Universal Time)
 
+/**
+ * Karma Config
+ */
 module.exports = function(config) {
   config.set({
 
@@ -27,7 +30,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-        '**/*.ts': 'karma-typescript'
+      '**/*.ts': 'karma-typescript',
     },
 
 
@@ -46,11 +49,13 @@ module.exports = function(config) {
 
 
     // level of logging
-    // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
+    // possible values: config.LOG_DISABLE || config.LOG_ERROR
+    //        || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
     logLevel: config.LOG_INFO,
 
 
-    // enable / disable watching file and executing tests whenever any file changes
+    // enable / disable watching file and executing tests whenever any
+    // file changes
     autoWatch: true,
 
 
@@ -60,10 +65,10 @@ module.exports = function(config) {
 
     // Custom launchers
     customLaunchers: {
-        ChromeCustom: {
-            base: 'ChromeHeadless',
-            flags: ['--no-sandbox']
-        }
+      ChromeCustom: {
+        base: 'ChromeHeadless',
+        flags: ['--no-sandbox'],
+      },
     },
 
     // Continuous Integration mode
@@ -72,6 +77,6 @@ module.exports = function(config) {
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: Infinity
-  })
-}
+    concurrency: Infinity,
+  });
+};
