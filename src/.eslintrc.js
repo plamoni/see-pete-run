@@ -22,6 +22,7 @@ module.exports = {
         'Directive',
         'HostListener',
         'Inject',
+        'Injectable',
         'Input',
         'NgModule',
         'Output',
@@ -30,6 +31,7 @@ module.exports = {
     }],
     'require-jsdoc': 0,
     'valid-jsdoc': 0,
+    'no-invalid-this': 0, // Can go away later...
     'jsdoc/require-jsdoc': [2, {
       'require': {
         'ArrowFunctionExpression': true,
